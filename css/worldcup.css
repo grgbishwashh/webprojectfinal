@@ -1,0 +1,174 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    color: white;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--primary-color);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3%;
+  }
+  
+  #menubar {
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  #menubar>div{
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(246, 242, 242);
+    padding: 1em;
+    transition: all 0.3s ease;
+    
+    
+}
+
+#menubar>div:hover{
+    
+    transform: scale(1.3);
+    
+}
+  
+  #menubar>div a {
+    text-decoration: none;
+    color: inherit;
+    white-space: nowrap;
+  }
+  
+
+  .logo img{
+    width: 100%;
+    height: 70px;
+}
+
+img{
+  width: 100%;
+  height: 70px;
+}
+  .introduction {
+    width: 80%;
+    font-size: larger;
+    height: auto;
+    text-align: justify;
+    float: left;
+    margin: 10px;
+  }
+  
+  .header1 {
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .mainpage {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+  }
+  
+  .content {
+    background-color: rgba(8, 28, 28, 0.74);
+    width: 40%; /* Adjusted width for the table */
+    max-width: 800px; /* Set a max-width if needed */
+    height: auto;
+    margin: 10px auto;
+    /* border: 2px solid rgb(26, 15, 87); */
+    box-shadow: 20px 20px 20px 10px rgba(102, 127, 170, 0.2);
+    border-radius: 20px;
+    overflow: auto; /* Add overflow: auto to enable scrolling if content is too long */
+  }
+  
+  h1 {
+    margin: 10px;
+  }
+  
+  .mainpage .content li {
+    text-align: left;
+    padding-left: 30px;
+    line-height: 2;
+    list-style-position: inside;
+  }
+  
+  .mainpage .content .card img {
+    width: 500px;
+    height: 300px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(243, 237, 237);
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: rgb(29, 13, 10);
+    display: flex;
+  }
+  
+  .last {
+    width: 100%;
+    height: auto;
+    float: left;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .contact {
+    width: 30%;
+    height: inherit;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+  }
+  
